@@ -1,0 +1,44 @@
+/* styles.css */
+
+
+.navbar-brand {
+    color: #010100;
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    margin-left: 50px; /* Adjust the margin as needed */
+    transform: perspective(100px) rotateY(10deg); /* Example 3D transformation */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: .3s;
+}
+
+
+.navbar {
+    background-color: #FEDE00;
+    height: 110px; /* Adjust the height as needed */
+    padding-top: 15px; /* Increase top padding to vertically center the navbar items */
+    padding-bottom: 15px; /* Increase bottom padding */
+}
+
+.navbar-nav {
+    margin: 0 auto; /* Center the navbar items */
+    padding: 0; /* Remove default padding */
+}
+
+.navbar-nav .nav-item {
+    margin-bottom: 10px; /* Add margin-bottom between each list item */
+}
+
+.navbar-nav .nav-link {
+    color: #010100;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: .3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #010100;
+    font-size: 2.1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
