@@ -1,20 +1,24 @@
 /* styles.css */
 
+*body {
+    color: #010100;
+}
+
+#profession-description {
+    font-weight: 500;
+    color: #010100;
+}
 
 .navbar-brand {
     color: #010100;
-    font-size: 3.5rem; /* Adjust the font size as needed */
-    margin-left: 75px; /* Adjust the margin as needed */
+    font-size: 3.5rem;
+    margin-left: 75px; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     transition: .3s;
-}
-
+} 
 
 .navbar {
     background-color: #FEDE00;
-    height: 120px; /* Adjust the height as needed */
-    padding-top: 15px; /* Increase top padding to vertically center the navbar items */
-    padding-bottom: 15px; /* Increase bottom padding */
 }
 
 .navbar-nav {
@@ -28,7 +32,7 @@
 
 .navbar-nav .nav-link {
     color: #010100;
-    font-size: 3rem;
+    font-size: 2rem;
     text-decoration: none;
     font-weight: 500;
     margin-left: 15px;
@@ -38,7 +42,7 @@
 
 .navbar-nav .nav-link:hover {
     color: #010100;
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
@@ -52,4 +56,34 @@
 
 .social-icons a i {
     font-size: 50px; /* Adjust the size as needed */
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
+
+.padding-around {
+    padding: 20px;
+}
+
+footer {
+    background-color: #12be8b;
+    padding: 20px 0;
+    color: #333;
+    font-size: 14px; 
+}
+
+.row {
+    padding: 20px;
+}
+
+.col-sm-3 {
+    padding: 0 25px; 
 }
