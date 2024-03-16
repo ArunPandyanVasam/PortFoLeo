@@ -52,6 +52,7 @@ p {
 }
 
 .jumbotron {
+    background-color: #ffffff;
     margin-top: 70px;
     padding-top: 250px; /* Added padding to create space between jumbotron and navbar */
 }
