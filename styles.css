@@ -1,12 +1,14 @@
 
-*body {
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     color: #010100;
 }
 
 p {
     font-size: 25px;
 }
-
 
 #profession-description {
     font-weight: 500;
@@ -24,12 +26,11 @@ p {
 
 .navbar {
     background-color: #FEDE00;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
 }
-
-/* .navbar-nav {
-    margin: 0 auto; 
-    padding: 0;
-} */
 
 .navbar-nav .nav-item {
     margin-bottom: 10px;
@@ -47,13 +48,13 @@ p {
 
 .navbar-nav .nav-link:hover {
     color: #010100;
-    /* font-size: 2.25rem; */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 .jumbotron {
-    margin-top: -20px;
+    margin-top: 70px;
 }
+
 
 .social-icons a {
     margin-right: 20px;
@@ -81,3 +82,22 @@ footer {
 .col-sm-3 {
     padding: 0 25px; 
 }
+
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    width: 70%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.aboutContent {
+    text-align: center;
+}
+
