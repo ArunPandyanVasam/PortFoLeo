@@ -53,6 +53,7 @@ p {
 
 .jumbotron {
     margin-top: 70px;
+    padding-top: 250px; /* Added padding to create space between jumbotron and navbar */
 }
 
 
