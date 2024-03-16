@@ -25,7 +25,7 @@ p {
 } 
 
 .navbar {
-    background-color: #FEDE00;
+    background-color: #E9EAEC;
     position: fixed;
     top: 0;
     width: 100%;
@@ -54,7 +54,7 @@ p {
 .jumbotron {
     background-color: #ffffff;
     margin-top: 70px;
-    padding-top: 250px; /* Added padding to create space between jumbotron and navbar */
+    padding-top: 245px;
 }
 
 
@@ -71,9 +71,9 @@ p {
 }
 
 footer {
-    background-color: #12be8b;
+    background-color: #E3E8E9;
     padding: 20px 0;
-    color: #333;
+    color: #010100;
     font-size: 14px; 
 }
 
@@ -85,21 +85,4 @@ footer {
     padding: 0 25px; 
 }
 
-
-.aboutContainer {
-    display: flex;
-    justify-content: center;
-}
-
-.about {
-    width: 70%;
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.aboutContent {
-    text-align: center;
-}
 
