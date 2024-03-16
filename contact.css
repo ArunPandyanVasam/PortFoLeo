@@ -3,3 +3,7 @@
 .form-control {
   font-size: 18px; /* Adjust the font size as needed */
 }
+
+.mb-3 input {
+    margin-bottom: 25px; /* Adjust the margin-bottom value as needed */
+}
