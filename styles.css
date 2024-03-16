@@ -3,6 +3,11 @@
     color: #010100;
 }
 
+p {
+    font-size: 25px;
+}
+
+
 #profession-description {
     font-weight: 500;
     color: #010100;
@@ -11,7 +16,8 @@
 .navbar-brand {
     color: #010100;
     font-size: 3.5rem;
-    margin-left: 75px; 
+    margin-right: auto;
+    margin-left: 0; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     transition: .3s;
 } 
@@ -55,17 +61,6 @@
 
 .social-icons a i {
     font-size: 50px;
-}
-
-@media (max-width: 768px) {
-    .navbar-nav {
-        text-align: center;
-    }
-
-    .navbar-nav .nav-item {
-        display: inline-block;
-        margin: 0 10px;
-    }
 }
 
 .padding-around {
