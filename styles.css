@@ -1,13 +1,13 @@
-
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     color: #010100;
+    font-size: 16px; /* Adjust font size for better consistency */
 }
 
 p {
-    font-size: 25px;
+    font-size: 16px; /* Maintain consistency with body font size */
 }
 
 #profession-description {
@@ -17,19 +17,20 @@ p {
 
 .navbar-brand {
     color: #010100;
-    font-size: 3.5rem;
+    font-size: 2rem; /* Adjust font size for better consistency */
     margin-right: auto;
-    margin-left: 0; 
+    margin-left: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     transition: .3s;
-} 
+}
 
 .navbar {
     background-color: #E9EAEC;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000; 
+    z-index: 1000;
+    padding: 10px 0; /* Add padding to navbar for better spacing */
 }
 
 .navbar-nav .nav-item {
@@ -38,7 +39,7 @@ p {
 
 .navbar-nav .nav-link {
     color: #010100;
-    font-size: 2rem;
+    font-size: 1.5rem; /* Adjust font size for better readability */
     text-decoration: none;
     font-weight: 500;
     margin-left: 15px;
@@ -49,16 +50,15 @@ p {
 .jumbotron {
     background-color: #ffffff;
     margin-top: 70px;
-    padding-top: 245px;
+    padding-top: 150px; /* Adjust padding-top for better spacing */
 }
-
 
 .social-icons a {
     margin-right: 20px;
 }
 
 .social-icons a i {
-    font-size: 50px;
+    font-size: 2rem; /* Adjust font size for better consistency */
 }
 
 .padding-around {
@@ -67,20 +67,16 @@ p {
 
 footer {
     background-color: #E3E8E9;
-    padding: 20px 0;
-    color: #010100;
-    font-size: 14px; 
-}
-
-.row {
     padding: 20px;
+    color: #010100;
+    font-size: 16px; /* Increase font size for better readability */
 }
 
 .col-sm-3 {
-    padding: 10px 25px; 
+    padding: 10px; /* Adjust padding for better spacing */
 }
 
-col-sm-3 img {
+.col-sm-3 img {
     transition: opacity 0.5s ease-in-out;
 }
 
@@ -91,5 +87,3 @@ col-sm-3 img {
 .container-fluid.bg-3 .col-sm-3 a {
     text-decoration: none;
 }
-
-
