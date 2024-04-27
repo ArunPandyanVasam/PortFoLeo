@@ -1,18 +1,14 @@
 .aboutContainer {
     display: flex;
     justify-content: center;
-    margin-top: 50px; /* Add margin to the top for spacing */
-    margin-bottom: 50px; /* Add margin to the bottom for spacing */
 }
 
 .about {
-    width: 90%; /* Adjust width for responsiveness */
-    max-width: 800px; /* Set a maximum width to prevent stretching on larger screens */
+    width: 70%;
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 0 10px; /* Add margin to the sides for spacing */
 }
 
 .aboutContent {
